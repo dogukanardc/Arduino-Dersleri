@@ -1,6 +1,6 @@
 # Arduino Dersleri Ana Sayfası
 
-**Yukarıdan ders klasörünü seçerek o günkü ders notlarını ve kaynağına ulaşabilirsiniz.
+**Yukarıdan ders klasörünü seçerek o günkü ders notlarını ve kaynağına ulaşabilirsiniz.**
 
 -------------------------------------------------------------------------------------------------------------
 >Selamlar! Ben Doğukan Ardıç. 
