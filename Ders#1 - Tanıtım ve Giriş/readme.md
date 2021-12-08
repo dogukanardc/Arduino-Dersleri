@@ -32,6 +32,12 @@ Bu bölümde yapacaklarımız:<br />
   -**Direnç:** Siz mühendis olduğunuz için açıklamama gerek yok bence :D<br />
   -**Buton:** Arduinoya dijital (lojik) değer gönderir. Küçüktür ama çok işe yarar.<br />
 
+### 3)Giriş seçenekleri / bağlantıları / pinleri:<br />
+  Arduinoda baya fazla Dijital giriş/çıkış var 13 tane civarı. 5 Tane de analog giriş/çıkışı mevcut.
+  
+### 4)Kart programlama araçları<br />:
+  Arduino'nun hazırlamış olduğu Arduino IDE programını kullancağız ki güzel sade tatlı bir programdır. Çoook işimize yarayacaktır. Sadece arduino için değil bakmayın adı arduino olduğuna birçok kartı programlar.
+  
 
 Arduino klon:
 ![](Uno-Klon.jpg)
@@ -39,3 +45,4 @@ Arduino klon:
 
 asd
 def
+*01010011 01101001 01100110 01110010 01100101 00111010 00100000 01010100 01001110 01001011 01010101 01010010 01000001 01010011*
