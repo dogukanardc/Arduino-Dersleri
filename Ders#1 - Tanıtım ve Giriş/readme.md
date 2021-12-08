@@ -17,7 +17,7 @@ Bu bölümde yapacaklarımız:<br />
   Arduino okullar için oluşturulan dünyadaki en ünlü Maker kartlarından biridir. Bu kart basit olmakla beraber çok fazla kullanım alanına sahiptir. Elektroniğe başlangıç yapacak kişilerin elektroniğin temellerini anlaması açısından gereklidir. Belirli komponentler ile geliştirmeye açık ve açık kaynak kodlamaya sahip bir karttır.<br />
   Birçoook kullanım alanına sahiptir, **sonuçta her yiğidin yoğurt yiyişi farklıdır**. Kafanızdaki projeye göre kullanım amaçları şekillenmektedir. Zaten zaman ile fark edeceksiniz ki bir süre sonra arduino size yetmeyecek ve daha performanslı bir kart arayışına girişeceksiniz. Bir ipucu vereyim karşınıza ilk çıkacak kart Raspberry pi (Eğitimini vermek için önce biz tam olarak öğrenmemiz gerekecek :D )
   
- <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/Arduino.png" alt="Arduino uno yav bu" width="250"/>
+ <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/Arduino.png" alt="Arduino uno yav bu" width="350"/>
   
 ### 2)Komponentler nedir? Arduino ile Nasıl kullanılır ?<br />
   Birçok komponent var aslında, her projeye göre de değişiklik gösteriyor. Varsayalım ki robot kol yapmak istiyorsunuz ee o zaman tekerlekle işiniz olmaz ki :) Bu nedenden ötürü projeyi kafanızda tasarlarken aklınızda hemen hangi komponentle daha iyi yapabilirim diye şekillenecektir.<br /> 
@@ -40,7 +40,7 @@ Bu bölümde yapacaklarımız:<br />
 ### 4)Kart programlama araçları:<br />
   Arduino'nun hazırlamış olduğu Arduino IDE programını kullancağız ki güzel sade tatlı bir programdır. Çoook işimize yarayacaktır. Sadece arduino için değil bakmayın adı arduino olduğuna birçok kartı programlar.
   
- <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/IDE.png" alt="Buda IDE" width="500"/>
+ <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/IDE.png" alt="Buda IDE" width="1000"/>
   
 ### 5)Kod döngüleri:<br />
   Aslında 2 farklı döngü var birisi: Setup diğeri loop.
