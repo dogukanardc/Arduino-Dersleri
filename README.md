@@ -6,7 +6,7 @@
 >
 >Selamlar! Ben Doğukan Ardıç. 
 >
->IEEE - RAS komitesi için verdiğim Arduino Derslerine Hoşgeldin.
+>IEEE - RAS komitesi için verdiğim Arduino Ders Kaynağına Hoşgeldin.
 >
 >Bu dersler her hafta (haftada 2-3 gün) sürecek şekilde Yapılması planlanmaktadır.
 >
