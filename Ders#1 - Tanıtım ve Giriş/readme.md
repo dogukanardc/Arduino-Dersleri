@@ -40,7 +40,7 @@ Bu bölümde yapacaklarımız:<br />
 ### 4)Kart programlama araçları:<br />
   Arduino'nun hazırlamış olduğu Arduino IDE programını kullancağız ki güzel sade tatlı bir programdır. Çoook işimize yarayacaktır. Sadece arduino için değil bakmayın adı arduino olduğuna birçok kartı programlar.
   
- <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/IDE.png" alt="Buda IDE" width="250"/>
+ <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/IDE.png" alt="Buda IDE" width="500"/>
   
 ### 5)Kod döngüleri:<br />
   Aslında 2 farklı döngü var birisi: Setup diğeri loop.
