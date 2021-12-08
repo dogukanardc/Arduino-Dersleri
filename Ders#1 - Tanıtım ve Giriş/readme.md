@@ -24,9 +24,9 @@ Bu bölümde yapacaklarımız:<br />
   -**DC-Motor:** Gerilimi ve akımı arttırdıkça belirli bir yönde dönen motorlardır.<br />
   -**L298N Motor sürücü:** Motorların sürülmesi için gerekli olan akımı ve RPM'i ayarlayan sürücü devresidir. Bizi büyük yükten kurtarır. Motor sürücüye vereceğimiz komutlarla motoru çooook rahat sürmemizi sağlar. Motorun tüm velinimetlerinden yararlanmamıza da olanak tanır.<br />
   -**SG90 RC Mini Servo Motor:** Belirlediğiniz açıda dönen motordur.<br />
-  -**Breadboard:** Türkçesi ekmek tahtası olsa da tüm bağlantıları önce buraya yaparız. (Biz maker'lar için ekmek tahtasıdır ya aslında :D)<br /><br />
+  -**Breadboard:** Türkçesi ekmek tahtası olsa da tüm bağlantıları önce buraya yaparız. (Biz maker'lar için ekmek tahtasıdır ya aslında :D)<br />
   -**Jumper Kablo:** Komponentleri bağlayan tatlı mı tatlı kablolardır.<br />
-  -**LED:** Yanar.<br /><br />
+  -**LED:** Yanar.<br />
   -**Potansiyometre:** Analog giriş vermermizi sağlar. 0-255 arası değer gönderir.<br />
   -**Buzzer:** DÜT-DÜÜÜTTT diye öterr.<br />
   -**Direnç:** Siz mühendis olduğunuz için açıklamama gerek yok bence :D<br />
