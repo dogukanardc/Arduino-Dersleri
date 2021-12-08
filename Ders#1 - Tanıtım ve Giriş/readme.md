@@ -5,7 +5,7 @@ Merhabalar,
 Arduino Derslerinin 1. Bölümüne hoşgeldiniz.
 
 Bu bölümde yapacaklarımız:
-  1)Arduino Nedir? Ne işe yarar? Nerede kullanabilir?<br>
+  1)Arduino Nedir? Ne işe yarar? Nerede kullanabilir?<br\>
   2)Komponentler nedir? Arduino ile Nasıl kullanılır ?
   3)Giriş seçenekleri / bağlantıları / pinleri
   4)Kart programlama araçları
