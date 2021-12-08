@@ -53,7 +53,7 @@ Bu bölümde yapacaklarımız:<br />
 ### 6)Kütüphane yönetimi:<br />
   Temel olarak arduino içinde varolan sensörler vb. dışında bir şey kullanmak istediğinizde dışarıdan kütüphane eklemeniz gerekiyor. Yoksa kullanamazsınız valla. Bu ekstra kütüphaneler ile birlikte ekstradan sensörlerden veri okuyabiliyor veya zor olan verilerileri daha kolay okuyabiliriz. 
   
-   <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/IDE3.png" alt="Küpüthane" width="250"/>
+   <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/IDE3.png" alt="Küpüthane" width="400"/>
   
 ### 7)Nasıl Kodlanır?:<br />
   Doğukan onu öğretmek için var zaten (yani ben...).
