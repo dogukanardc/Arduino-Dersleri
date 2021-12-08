@@ -45,8 +45,8 @@ Bu bölümde yapacaklarımız:<br />
  <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/IDE.png" alt="Buda IDE" width="1000"/>
   
 ### 5)Kod döngüleri:<br />
-  Aslında 2 farklı döngü var birisi: Setup diğeri loop.
-  -**Void Setup:** Giriş döngüsüdür bir kere çalışır harbi çalışır. Giriş çıkış pinlerini bu döngü ile tanıtabiliriz.
+  Aslında 2 farklı döngü var birisi: Setup diğeri loop.<br />
+  -**Void Setup:** Giriş döngüsüdür bir kere çalışır harbi çalışır. Giriş çıkış pinlerini bu döngü ile tanıtabiliriz.<br />
   -**Void Loop:** Arduinonun asıl kodudur. Bu döngü yukarıdan aşağıya doğru her bittiğinde tekrarlanır kod başa döner. (Sensör verisi okuma gibi düşünebilirsiniz. Örneğin: Sensörden veri çekip kontrol etmek belirli bir değer üstündeyse uyarı ver değilse döngüyü elleme tekrarlasın. gibi...)
    
  <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/IDE2.png" alt="Kod işte" width="250"/>
