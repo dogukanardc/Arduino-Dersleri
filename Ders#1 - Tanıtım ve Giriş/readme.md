@@ -17,7 +17,7 @@ Bu bölümde yapacaklarımız:<br />
   Arduino okullar için oluşturulan dünyadaki en ünlü Maker kartlarından biridir. Bu kart basit olmakla beraber çok fazla kullanım alanına sahiptir. Elektroniğe başlangıç yapacak kişilerin elektroniğin temellerini anlaması açısından gereklidir. Belirli komponentler ile geliştirmeye açık ve açık kaynak kodlamaya sahip bir karttır.<br />
   Birçoook kullanım alanına sahiptir, **sonuçta her yiğidin yoğurt yiyişi farklıdır**. Kafanızdaki projeye göre kullanım amaçları şekillenmektedir. Zaten zaman ile fark edeceksiniz ki bir süre sonra arduino size yetmeyecek ve daha performanslı bir kart arayışına girişeceksiniz. Bir ipucu vereyim karşınıza ilk çıkacak kart Raspberry pi (Eğitimini vermek için önce biz tam olarak öğrenmemiz gerekecek :D )
   
-  ![](Arduino.png =250x250)
+  ![](Arduino.png = 50x)
   
 ### 2)Komponentler nedir? Arduino ile Nasıl kullanılır ?<br />
   Birçok komponent var aslında, her projeye göre de değişiklik gösteriyor. Varsayalım ki robot kol yapmak istiyorsunuz ee o zaman tekerlekle işiniz olmaz ki :) Bu nedenden ötürü projeyi kafanızda tasarlarken aklınızda hemen hangi komponentle daha iyi yapabilirim diye şekillenecektir.<br /> 
