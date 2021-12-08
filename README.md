@@ -1,13 +1,16 @@
-# Arduino-Dersleri
+# Arduino Dersleri Ana Sayfası
 
-Selamlar! Ben Doğukan Ardıç. 
+**Yukarıdan ders klasörünü seçerek o günkü ders notlarını ve kaynağına ulaşabilirsiniz.
 
-IEEE - RAS komitesi için verdiğim Arduino Derslerine Hoşgeldin.
+-------------------------------------------------------------------------------------------------------------
+>Selamlar! Ben Doğukan Ardıç. 
 
-Bu dersler her hafta (haftada 2-3 gün) sürecek şekilde Yapılması planlanmaktadır.
+>IEEE - RAS komitesi için verdiğim Arduino Derslerine Hoşgeldin.
 
-Herhangi bir sorunuzda veya ödevleri:
+>Bu dersler her hafta (haftada 2-3 gün) sürecek şekilde Yapılması planlanmaktadır.
 
-**Mail:** dogukan.ardic@hotmail.com
+>Herhangi bir sorunuzda veya ödevleri:
 
-Adresinden bana iletebilirsiniz :)
+>**Mail:** dogukan.ardic@hotmail.com
+
+>Adresinden bana iletebilirsiniz :)
