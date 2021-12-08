@@ -38,7 +38,6 @@ Bu bölümde yapacaklarımız:<br />
 <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/breadboard.png" alt="sensör" width="100"/>
 <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/SG90.png" alt="sensör" width="100"/>
 <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/L298N.png" alt="sensör" width="100"/>
-<img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%231%20-%20Tan%C4%B1t%C4%B1m%20ve%20Giri%C5%9F/pot.png" alt="sensör" width="100"/>
 
 ### 3)Giriş seçenekleri / bağlantıları / pinleri:<br />
   Arduinoda baya fazla Dijital giriş/çıkış var 13 tane civarı. 5 Tane de analog giriş/çıkışı mevcut.
