@@ -2,18 +2,18 @@
 
 **Yukarıdan ders klasörünü seçerek o günkü ders notlarını ve kaynağına ulaşabilirsiniz.**
 
--------------------------------------------------------------------------------------------------------------
+>-------------------------------------------------------------------------------------------------------------
 >
->Selamlar! Ben Doğukan Ardıç. 
+>Selamlar! Ben Doğukan Ardıç. >
 >
->IEEE - RAS komitesi için verdiğim Arduino Ders Kaynağına Hoşgeldin.
+>IEEE - RAS komitesi için verdiğim Arduino Ders Kaynağına Hoşgeldin.>
 >
->Bu dersler her hafta (haftada 2-3 gün) sürecek şekilde Yapılması planlanmaktadır.
+>Bu dersler her hafta (haftada 2-3 gün) sürecek şekilde Yapılması planlanmaktadır.>
 >
->Herhangi bir sorunuzda veya ödevleri:
+>Herhangi bir sorunuzda veya ödevleri:>
 >
->**Mail:** dogukan.ardic@hotmail.com
+>**Mail:** dogukan.ardic@hotmail.com>
 >
->Adresinden bana iletebilirsiniz :)
+>Adresinden bana iletebilirsiniz :)>
 >
--------------------------------------------------------------------------------------------------------------
+>------------------------------------------------------------------------------------------------------------
