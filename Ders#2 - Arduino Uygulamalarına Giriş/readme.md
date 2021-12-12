@@ -13,7 +13,7 @@ Bu bölümde yapacaklarımız:<br />
   
 ### 1)Değişkenler: ### <br/>
   Değişkenler bir algoritmanın olmazsa olmazıdır. Birçok projede trilyonlarca bile bulunabilir mesela elinizdeki cep telefonlarının ekran ışığı bile 0-100 arasında bir değişkene bağlı bu değişkenle birlikte ekran arkası paneller bu sayıya göre ışık seviyesini yükseltip düşürür. Kısaca işimize yarayacak değişken yani veriable'lardan kısaca bahsedeyim size:
-   # * int:# Integer açılımı olan bir değişken türü 2 byte yani 16 bitlik veri atayabilirsiniz.
+   ### * int:### Integer açılımı olan bir değişken türü 2 byte yani 16 bitlik veri atayabilirsiniz.
    # * bool:# Doğru veya yanlış depolar sadece veya 1,0 oda zaten doğru yanlışa tekabul ediyor.
    # * char:# 1 bytelık veri depolar 0-255 arasında veri saklayabilirsiniz.
    # * unsigned int:# Git gide büyüyor işler :) burada da 0-65535 arasında veri atayabilirsiniz.
@@ -23,7 +23,7 @@ Bu bölümde yapacaklarımız:<br />
     
     Hadi bir örnek veri vereyim.
     
-   # *int sayi = 12345;* #
+   ### *int sayi = 12345;* ###
   
     tarzında gibi... Sondaki noktalı virgülü unutmayın he valla kodunuz çalışmaz sonra bana demeyin kod bozuk diye:)
       
