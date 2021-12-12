@@ -23,9 +23,9 @@ Bu bölümde yapacaklarımız:<br />
     
 Hadi bir örnek veri vereyim.<br/>
     
-   ### *int sayi = 12345;* <br/>
+   * int sayi = 12345; <br/>
   
-    tarzında gibi... Sondaki noktalı virgülü unutmayın he valla kodunuz çalışmaz sonra bana demeyin kod bozuk diye:)<br/>
+tarzında gibi... Sondaki noktalı virgülü unutmayın he valla kodunuz çalışmaz sonra bana demeyin kod bozuk diye:)<br/>
       
 ### 2)Matematiksel işlemler:br />
   Öncelikle matematiksel işlemler normal işlemlerle aynı :) 9 + 4 vb. ama her şeyden önce veriable yani değişken tanımlamak gerekiyor. Değişkenleri diğer maddede bahsedeceğim. Değişkene istediğimiz şeyleri tanımlayıp daha sonrasında da onları kullanmak arduino da basittir ve çok işinize yarar.
