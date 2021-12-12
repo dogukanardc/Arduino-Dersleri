@@ -23,7 +23,7 @@ Bu bölümde yapacaklarımız:<br />
     
 Hadi bir örnek veri vereyim.<br/>
     
-   *int sayi = 12345; <br/>
+   *int sayi = 12345;*<br/>
   
 tarzında gibi... Sondaki noktalı virgülü unutmayın he valla kodunuz çalışmaz sonra bana demeyin kod bozuk diye:)<br/>
       
