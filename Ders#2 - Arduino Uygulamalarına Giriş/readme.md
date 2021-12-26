@@ -363,3 +363,7 @@ void loop()
 }
  ```
 <br /><br />
+
+Bugünlük bu kadardı Başka güzel derslerde görüşmek üzere kendinize iyi bakın sağlıcakla kalın :)
+<br /><br />
+### -Doğukan Ardıç
