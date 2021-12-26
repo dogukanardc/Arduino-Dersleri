@@ -152,12 +152,79 @@ void loop() {
  <br />
  
 ### 6)Buton ile Led yakma<br />
-Evveeett geldik fiziksel olarak kontrol edebileceğimiz şeylere yaniii buton ile led yakma uygulamasına hemen ihtiyacımız olan şeyleri yazıyorum:<br />
+Evveeett geldik fiziksel olarak kontrol edebileceğimiz şeylere yaniii buton ile led yakma uygulamasına. Amaç burada butona bastığımız sürece ledin yanmasını sağlamak, hemen ihtiyacımız olan şeyleri yazıyorum:<br />
 *Led<br />
 *Buton<br />
 *Arduino<br />
 *Jumper Kablo<br />
 *Ennn önemlisi de dersi verecek olan bir Doğukan :)<br />
 <br />
-* Hadi projenin bağlantılarını ve kodlarını paylaşayım size:<br />
+* Hadi projenin bağlantılarını ve kodlarını paylaşayım size:<br /><br />
 
+**Bağlantıları:** <br />
+<img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/bbbuton.png" alt="sensör" width="800"/><br /><br />
+<br />
+
+**Kod:** <br />
+
+```C
+#define Buton 7
+#define Led 10
+
+void setup()
+{
+  pinMode(Buton, INPUT);
+  pinMode(Led, OUTPUT);
+}
+
+void loop()
+{
+  if (digitalRead(Buton) == 1){
+  digitalWrite(Led,HIGH);
+  }
+  else{
+  digitalWrite(Led,LOW);
+  }
+}
+ ```
+ <br /> <br />
+ 
+ ### 7)LDR sensörü ile Kendi kendine açılan LED yapımı<br />
+  Derste bahsettiğimiz kendi kendine açılan sokak ışıklarını hatırladınız değilmi :) Tabi bu türkiyede pek var olan bir durum değil. Daha çok gelişmiş şehirlerde ve avrupada denk geldiğimiz bir durum. Şimdi size aslında bu olayın nasıl bir şey olduğundan bahsedicem ve yapıcaz. Öncelikle LDR bir sensör değil ışığa duyarlı bir tür direnç yani ortamdaki ışığın şiddetine göre bu modülün direnci yükseliyor. Bizde buna bağlı olarak ışık şiddeti belirli bir değerin altına düştüğünde ledi yakacağız. Projenin bağlantılarını ve Kodlarını aşağıda bulabilirsiniz. <br /> <br />
+  
+  **Bağlantıları:** <br />
+<img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/bbbuton.png" alt="sensör" width="800"/><br /><br />
+<br />
+
+**Kod:** <br />
+
+```C
+#define led 3 //3.Pinde LED olduğunu tanımlıyoruz
+void setup() {
+  pinMode(led, OUTPUT); //LED'in çıkış elemanı olduğunu belirtiyoruz
+  Serial.begin(9600); //9600 Baundluk bir seri haberleşme başlatıyoruz
+}
+void loop() {
+  int isik = analogRead(A0); //Işık değişkenini A0 pinindeki LDR ile okuyoruz
+  Serial.println(isik); //Okunan değeri seri iletişim ekranına yansıtıyoruz
+  delay(50);
+  if (isik > 900) { //Okunan ışık değeri 900'den büyük ise
+    digitalWrite(led, LOW); //LED yanmasın
+  }
+  if (isik < 850) { //Okunan ışık değeri 850'den küçük ise
+    digitalWrite(led, HIGH); //LED yansın
+  }
+}
+}
+
+void loop()
+{
+  if (digitalRead(Buton) == 1){
+  digitalWrite(Led,HIGH);
+  }
+  else{
+  digitalWrite(Led,LOW);
+  }
+}
+ ```
+ <br /> <br />
