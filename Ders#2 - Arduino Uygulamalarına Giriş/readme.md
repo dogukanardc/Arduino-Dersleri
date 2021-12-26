@@ -94,5 +94,9 @@ Serial.println("Selam Dünya"); //Pc'ye mesaj gönder.
   } 
  ```
 
-  
+<br /> Seri monitör penceresinde çıkan sonuçlar Serial.println("Selam Dünya"); Kısmında yazdığınız Selam Dünya kısmı yazılır.<br />
+
+### 4)Led Yakma<br />
+ Led yakmak Arduino için neler yapılabileceğimiz konusunda en önemli kısımlarındandır aslında. Önce onboard led yakmayı daha sonrasında ise kablo ve breadboard ile yakmaktan bahsedeceğim. Kodu ve Çizimi aşağıda bulabilirsin.
+ <br />
  
