@@ -15,7 +15,7 @@ Bu bölümde yapacaklarımız:<br />
   8)RGB Led Kullanımı<br />
   9)Potansiyometre ile Değer okumak<br />
   10)HCSR-04 Ultrasonik Mesafe Sensörü nedir?<br />
-  11)Park sensörü yapımı<br />
+  11)Mesafe Ölçümü<br />
   
 ### 1)Değişkenler:<br/>
   Değişkenler bir algoritmanın olmazsa olmazıdır. Birçok projede trilyonlarca bile bulunabilir mesela elinizdeki cep telefonlarının ekran ışığı bile 0-100 arasında bir değişkene bağlı bu değişkenle birlikte ekran arkası paneller bu sayıya göre ışık seviyesini yükseltip düşürür. Kısaca işimize yarayacak değişken yani veriable'lardan kısaca bahsedeyim size:<br/><br/>
