@@ -193,17 +193,19 @@ void loop()
   Derste bahsettiğimiz kendi kendine açılan sokak ışıklarını hatırladınız değilmi :) Tabi bu türkiyede pek var olan bir durum değil. Daha çok gelişmiş şehirlerde ve avrupada denk geldiğimiz bir durum. Şimdi size aslında bu olayın nasıl bir şey olduğundan bahsedicem ve yapıcaz. Öncelikle LDR bir sensör değil ışığa duyarlı bir tür direnç yani ortamdaki ışığın şiddetine göre bu modülün direnci yükseliyor. Bizde buna bağlı olarak ışık şiddeti belirli bir değerin altına düştüğünde ledi yakacağız. Projenin bağlantılarını ve Kodlarını aşağıda bulabilirsiniz. <br /> <br />
   
   **Bağlantıları:** <br />
-<img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/bbbuton.png" alt="sensör" width="800"/><br /><br />
+<img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/LDR.png" alt="sensör" width="800"/><br /><br />
 <br />
 
 **Kod:** <br />
 
 ```C
 #define led 3 //3.Pinde LED olduğunu tanımlıyoruz
+
 void setup() {
   pinMode(led, OUTPUT); //LED'in çıkış elemanı olduğunu belirtiyoruz
   Serial.begin(9600); //9600 Baundluk bir seri haberleşme başlatıyoruz
 }
+
 void loop() {
   int isik = analogRead(A0); //Işık değişkenini A0 pinindeki LDR ile okuyoruz
   Serial.println(isik); //Okunan değeri seri iletişim ekranına yansıtıyoruz
@@ -228,3 +230,47 @@ void loop()
 }
  ```
  <br /> <br />
+### 8)RGB Led Kullanımı<br />
+Evet güzel zevkli ve bi o kadar karmaşık bir led modeli. Her teknoloji mağazasında tüm gamerların hayalini süsleyen o Işıklı mışıklı RGB klavyeler mouselardaki ışık buradan geliyor. Açılımı Red Green Blue olan bu ledde 4 Bacak var ve her bacağa verdiğimiz o analog değer ile bizim gözümüzü şenlendiriyor. Kodu ve Bağlantıları:<br /><br />
+  **Bağlantıları:** <br />
+<img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/RGB.png" alt="sensör" width="800"/><br /><br />
+<br />
+
+**Kod:** <br />
+
+```C
+int kirmizi= 11;
+int yesil = 10;
+int mavi = 9;
+
+void setup() {
+  pinMode(kirmizi, OUTPUT);
+  pinMode(yesil, OUTPUT);
+  pinMode(mavi, OUTPUT);
+}
+
+void loop() {
+  RGB_color(255, 0, 0); // Kirmizi renk verir
+  delay(1000);
+  RGB_color(0, 255, 0); // Yesil renk
+  delay(1000);
+  RGB_color(0, 0, 255); // Mavi
+  delay(1000);
+  RGB_color(255, 255, 125); // Raspberry
+  delay(1000);
+  RGB_color(0, 255, 255); // cyan
+  delay(1000);
+  RGB_color(255, 0, 255); // Magenta
+  delay(1000);
+  RGB_color(255, 255, 0); // Sari renk
+  delay(1000);
+  RGB_color(255, 255, 255); // Beyaz
+  delay(1000);
+}
+void RGB_color(int kirmizi_deger, int yesil_deger, int mavi_deger)
+ {
+  analogWrite(kirmizi, kirmizi_deger);
+  analogWrite(yesil, yesil_deger);
+  analogWrite(mavi, mavi_deger);
+}
+ ```
