@@ -25,7 +25,7 @@ Bu bölümde yapacaklarımız:<br />
     **- unsigned int:** Git gide büyüyor işler :) burada da 0-65535 arasında veri atayabilirsiniz.<br/>
     **- long:** Vuhuuuu milyonlar başlasın o zaman... 32 bitlik veri depolarsınız yaniii -2 milyonla +2 milyon arasında veri demek (maşallah)<br/>
     **- float:** Buda baya büyüktür ama iş ondalıktır. Yani 3.65846 tarzı sayılar depolarsınız.<br/>
-    **- string:** Sonunda yazıya geçebildik. Buda sayı depolar. Sınırsızdır.<br/><br/>
+    **- string:** Sonunda yazıya geçebildik. Buda yazı depolar. Sınırsızdır.<br/><br/>
     
 Hadi bir örnek veri vereyim.<br/>
     
