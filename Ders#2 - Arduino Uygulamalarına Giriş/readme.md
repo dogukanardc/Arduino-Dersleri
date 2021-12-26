@@ -233,7 +233,7 @@ void loop()
 ### 8)RGB Led Kullanımı<br />
 Evet güzel zevkli ve bi o kadar karmaşık bir led modeli. Her teknoloji mağazasında tüm gamerların hayalini süsleyen o Işıklı mışıklı RGB klavyeler mouselardaki ışık buradan geliyor. Açılımı Red Green Blue olan bu ledde 4 Bacak var ve her bacağa verdiğimiz o analog değer ile bizim gözümüzü şenlendiriyor. Kodu ve Bağlantıları:<br /><br />
   **Bağlantıları:** <br />
-<img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/RGB.png" alt="sensör" width="800"/><br /><br />
+<img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/RGB.png" alt="sensör" width="400"/><br /><br />
 <br />
 
 **Kod:** <br />
@@ -274,3 +274,40 @@ void RGB_color(int kirmizi_deger, int yesil_deger, int mavi_deger)
   analogWrite(mavi, mavi_deger);
 }
  ```
+<br /><br />
+
+### 9)Potansiyometre ile Değer okumak<br />
+  Potansiyometre aslında ayarlanılabilir bir direnç, biz bunu nerede kullanacağız peki ? Ayar vermek için. evet. Arduinonun analog girişine bağlayarak 0-255 arası değerleri arduinomuza iletebilirsiz. İster direksiyon seti yap, ister robot kolun ne kadar açılmış onu öğren. Sınırsızca her şeyi ölçebilirsin. Şimdi potansiyometremizi döndürerek Seri monitördeki değerlerimizi yükseltmeyi göstereceğim. Kodu ve Bağlantıları: <br />
+   **Bağlantıları:** <br />
+<img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/POT.png" alt="sensör" width="400"/><br /><br />
+<br />
+
+**Kod:** <br />
+
+```C
+#define potpin A0 //Potansiyometreyi A0 pinine tanımlıyoruz
+
+int deger = 0; //"Değer" adlı 0 başlangıçlı bir değişken tanımlıyoruz
+
+void setup() {
+  Serial.begin(9600); //9600 Baund bir seri haberleşme başlatıyoruz
+  Serial.println("Pot Deger Okuma"); //Seri monitörde bir kez gönderilen bir mesaj tanımlıyoruz
+}
+
+void loop() {
+  deger = analogRead(potpin); //"Değer" değişkeni potansiyometrenin değerini okuyup buna göre değişir
+  Serial.println(deger); //Okunan değer seri monitörde mesaj olarak gönderilir
+  delay(100); //Bu işlem 100 milisaniye aralıklarla yapılır
+}
+ ```
+<br /><br />
+
+### 10)HCSR-04 Ultrasonik Mesafe Sensörü nedir?<br />
+Çok detaylı bilgi için sizi şöyle alıyım: https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/ <br />
+Çünkü ben yüzeysel ve nasıl çalıştığından bahsedicem. Hadi Başlayalım.<br /><br />
+
+HCSR-04 Derste de anlattığım bir sensör aslında ama daha detaylı anlamak istersiniz diye düşündüm. Bu sensör ultrason ses dalgalarını kullanarak bize güzel cevaplar verebiliyor. Sesi yolluyor ve gelen sesin kaç milisaniye sonra geldiğini ölçüyor ve aradaki mesafeyi ölçüyor. Aşağıya animasyonlarını bırakıyorum tabii ki :)<br />
+<img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/HCSR04.gif" alt="sensör" width="400"/><br /><br />
+<br />
+
+  11)Park sensörü yapımı<br />
