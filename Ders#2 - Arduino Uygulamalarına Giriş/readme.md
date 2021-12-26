@@ -218,16 +218,6 @@ void loop() {
   }
 }
 }
-
-void loop()
-{
-  if (digitalRead(Buton) == 1){
-  digitalWrite(Led,HIGH);
-  }
-  else{
-  digitalWrite(Led,LOW);
-  }
-}
  ```
  <br /> <br />
 ### 8)RGB Led Kullanımı<br />
