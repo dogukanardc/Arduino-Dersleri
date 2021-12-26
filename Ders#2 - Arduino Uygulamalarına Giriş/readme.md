@@ -279,7 +279,7 @@ void RGB_color(int kirmizi_deger, int yesil_deger, int mavi_deger)
 ### 9)Potansiyometre ile Değer okumak<br />
   Potansiyometre aslında ayarlanılabilir bir direnç, biz bunu nerede kullanacağız peki ? Ayar vermek için. evet. Arduinonun analog girişine bağlayarak 0-255 arası değerleri arduinomuza iletebilirsiz. İster direksiyon seti yap, ister robot kolun ne kadar açılmış onu öğren. Sınırsızca her şeyi ölçebilirsin. Şimdi potansiyometremizi döndürerek Seri monitördeki değerlerimizi yükseltmeyi göstereceğim. Kodu ve Bağlantıları: <br />
    **Bağlantıları:** <br />
-<img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/POT.png" alt="sensör" width="400"/><br /><br />
+<img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/POT.png" alt="sensör" width="500"/><br /><br />
 <br />
 
 **Kod:** <br />
@@ -306,8 +306,60 @@ void loop() {
 Çok detaylı bilgi için sizi şöyle alıyım: https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/ <br />
 Çünkü ben yüzeysel ve nasıl çalıştığından bahsedicem. Hadi Başlayalım.<br /><br />
 
-HCSR-04 Derste de anlattığım bir sensör aslında ama daha detaylı anlamak istersiniz diye düşündüm. Bu sensör ultrason ses dalgalarını kullanarak bize güzel cevaplar verebiliyor. Sesi yolluyor ve gelen sesin kaç milisaniye sonra geldiğini ölçüyor ve aradaki mesafeyi ölçüyor. Aşağıya animasyonlarını bırakıyorum tabii ki :)<br />
+HCSR-04 Derste de anlattığım bir sensör aslında ama daha detaylı anlamak istersiniz diye düşündüm. Bu sensör ultrason ses dalgalarını kullanarak bize güzel cevaplar verebiliyor. Sesi yolluyor ve gelen sesin kaç milisaniye sonra geldiğini ölçüyor ve aradaki mesafeyi hesaplıyor (biz). Aşağıya animasyonlarını bırakıyorum tabii ki :)<br />
 <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/HCSR04.gif" alt="sensör" width="400"/><br /><br />
 <br />
+Nasıl animasyonu Güzel çalmış mıyım :) Yazılımcılığın 10'da 9'u çalmaktır. Valla.<br />
 
-  11)Park sensörü yapımı<br />
+### 11)Mesafe Ölçümü<br />
+Veeee Final projemizz. Efsanedir zamanında bana yarışma kazandırmıştır çok basittir ama nerede ve nasıl kullanacağınızı bilmek size çok şey katacaktır. :) Burada mesafe sensöründen aldığımız veriyi seri monitöre yazdırıyoruz. Hadi koda ve Bağlantılara geçelim...<br />
+
+**Gerekli Kütüphane: NewPing https://drive.google.com/u/2/uc?id=1WBYtG4RlnuAT-YKsreCYhaUHnWj33zZO&export=download ** 
+
+<br /><br />
+**Bağlantıları:** <br />
+<img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/hcsr.png" alt="sensör" width="500"/><br /><br />
+<br />
+
+**Kod:** <br />
+
+```C
+#include "NewPing.h"
+
+// Trig Pinini Dijital 9 Pinine, Echo ise Dijital 10'a baglayalim.
+#define TRIGGER_PIN 9
+#define ECHO_PIN 10
+
+// İstediğimiz maximum değeri yazalim (400 cm)
+#define MAX_DISTANCE 400	
+
+// NewPing kütüphanesine sonar adında bir sensör tanımlayalim.
+NewPing sonar(TRIGGER_PIN, ECHO_PIN, MAX_DISTANCE);
+float duration, distance;
+
+void setup() 
+{
+	Serial.begin(9600);
+}
+
+void loop() 
+{
+	// Ping yollayıp cm cinsinden uzaklık değeri alıyoruz.
+	distance = sonar.ping_cm();
+	
+	// Aldığımız değeri Seri monitöre yazdırıyoruz.
+	Serial.print("Uzaklık = ");
+	
+	if (distance >= 400 || distance <= 2) 
+	{
+		Serial.println("Abartma istersen kanka"); // 400cm üstünde değer veya 2 cm altında değer okursa böyle yazar.
+	}
+	else 
+	{
+		Serial.print(distance);
+		Serial.println(" cm");
+	}
+	delay(500);
+}
+ ```
+<br /><br />
