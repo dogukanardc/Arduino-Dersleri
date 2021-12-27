@@ -8,7 +8,7 @@
 >
 > IEEE - RAS komitesi için verdiğim Arduino Ders Kaynağına Hoşgeldin.
 >
-> Bu dersler her hafta (haftada 2-3 gün) sürecek şekilde Yapılması planlanmaktadır.
+> Bu dersler 27-28 ve 31 aralık tarihlerinde Yapılması planlanmaktadır.
 >
 > Herhangi bir sorunuzda veya ödevleri:
 >
