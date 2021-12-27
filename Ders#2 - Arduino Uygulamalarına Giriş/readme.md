@@ -1,5 +1,8 @@
 # Ders-2
 
+CH-340 DRİVER (KLON ARDUİNO İÇİN) = https://maker.robotistan.com/download/ch341ser.zip
+
+
 Merhabalar, 
 Arduino Derslerinin 2. Bölümüne hoşgeldiniz. Bu dersimizde hiç olmadığımız kadar LED ile uğraşacağız. Umarım elinizde bir tane yoktur yakmamaya dikkat edin :D
 
