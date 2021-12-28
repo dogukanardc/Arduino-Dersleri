@@ -92,7 +92,9 @@ delay(850);
   Aslında her şey DC akım kullanarak normal bir şekilde besleniyor. Arduino 5V 1A lik akıma ihtiaç duyuyor (oda maximum yani) ve beslemek için 2 faklı kaynağa ihtiyacımız olabilir:<br />
   *USB kablo ile:* Kablo ile bağlantıda hem bilgisayardan veri aktarımı yapabiliyoruz hemde gücü bilgisayardan çekebiliyoruz (Bilgisayarın verebildiği kadar tabi)<br />
   *Dışarıdan Besleme:* Birçok yolu var aslında ya pille yada sabit güçle besleyebiliriz. Fakat burdaki sıkıntı Arduino üzerindeki VIN girişi ve GND girişlerini kullanmalıyız. İstediğinizi takabilirsiniz. Yeterki 9V girişi Geçmeyin yakarsınız aman diyim :) <br />
+  <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/breadboard.png" alt="sensör" width="600"/><br /><br />
   *Soket Besleme:* Soketle beslemek arduino üzerinde modem girişlerine benzer bir güç girişi var (yuvarlak olan he işte o). O girişten 9V luk bir giriş bağladığımızda güzel bir besleme elde edebiliyoruz.
+  <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%232%20-%20Arduino%20Uygulamalar%C4%B1na%20Giri%C5%9F/breadboard.png" alt="sensör" width="600"/><br /><br />
   
 
 
