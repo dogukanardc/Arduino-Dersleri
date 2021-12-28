@@ -169,14 +169,14 @@ digitalWrite(Enable_A, LOW);
 digitalWrite(Enable_B, LOW);
 delay(3000);
 //----------Hiz yukselt----------//
-for(int i = 0; i &lt; 256; i++)
+for(int i = 0; i==256; i++)
 {
 analogWrite(Enable_A, i);
 analogWrite(Enable_B, i);
 delay(40);
 }
 //----------Hiz dusur----------//
-for(int j = 256; j &gt; 0; j--)
+for(int j = 256; j==0; j--)
 {
 analogWrite(Enable_A, j);
 analogWrite(Enable_B, j);
