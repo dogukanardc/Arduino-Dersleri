@@ -226,3 +226,9 @@ void loop() {
 
 <br /><br />
  
+### 9)Yarışma duyursu ve tanıtımı<br />
+  Dersten önce bahsetmeyelim :) Deste parkurun çizimini ve temsili bir robotu size tanıtacağız buna göre neredeyse 1 hafta süreniz olacak. Daha sonrasında derste yarışma yapıp eğer eksikleri varsa robotunuzu inceleyeceğiz. Eksik kısımları nasıl egale edebilirsiniz anlatacağız. <br /><br />
+  
+  Bugünlük dersimiz bu kadardı. Teşekkür eder iyi günler dilerim.<br />
+  
+  -Doğukan ARDIÇ
