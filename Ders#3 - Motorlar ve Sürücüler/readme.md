@@ -20,8 +20,8 @@ Bu bölümde yapacaklarımız:<br />
   **KOD:**<br />
   
 ```C
-const int trigger_pin = 12; //12. pini trigger pin olarak tanımlandı.
-const int echo_pin = 13; //13. pini echo pin olarak tanımlandı.
+const int trigger_pin = 13; //13. pini trigger pin olarak tanımlandı.
+const int echo_pin = 12; //12. pini echo pin olarak tanımlandı.
 int uyariLed = 2; //2. pini uyariLed olarak tanımlandı.
 int buzzer = 6; //6. pini buzzer olarak tanımlandı.
 
