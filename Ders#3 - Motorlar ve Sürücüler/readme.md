@@ -199,7 +199,7 @@ delay(3000);
   
   ***KODA BAŞLAMADAN ÖNCE!!!!!!!*** Servo.h kütüphanesini indirmeniz gerekmektedir. Nasıl indireceğimizi aşağıda göstereceğim. Dikkatle yapın. <br />
   
-  <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%233%20-%20Motorlar%20ve%20S%C3%BCr%C3%BCc%C3%BCler/kutuphane1.jpg" alt="sensör" width="600"/><br />
+  <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%233%20-%20Motorlar%20ve%20S%C3%BCr%C3%BCc%C3%BCler/kutuphane1.png" alt="sensör" width="600"/><br />
   <img src="https://github.com/dogukanardc/Arduino-Dersleri/blob/main/Ders%233%20-%20Motorlar%20ve%20S%C3%BCr%C3%BCc%C3%BCler/kutuphane2.jpg" alt="sensör" width="600"/><br />
   
   **KOD:**<br />
